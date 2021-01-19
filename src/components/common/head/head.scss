@@ -1,0 +1,28 @@
+.nav-search{
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	font-size:20px;
+	.ant-row{
+		border-bottom: 1px solid #ccc;
+		.ant-col{
+			.ant-input-affix-wrapper{
+				border-radius: 50px;
+			}
+		}
+	}
+}
+.nav-text{
+	display:flex;
+	justify-content: space-around;
+	height:40px;
+	line-height: 40px;
+	font-size:16px;
+	.active{
+		color:#ff6692;
+		border-bottom: 2px solid #ff6692;
+	}
+	a{
+		color:#000;
+	}
+}
